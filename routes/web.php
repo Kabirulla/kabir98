@@ -20,10 +20,10 @@ Route::get('/contact',function(){
    return view('contact')->with('phpKnowledges',$phpKnowledges);
 })->name('contactView');
 Route::get('/projects/{id}',"Php@getPhpProjects")->name("phpView");
-Route::get('ajax',function(){
+/*Route::get('ajax',function(){
    return view('message');
 });
 Route::get('/ajax2',function(){
    return redirect('/');
 });
-Route::get('/getmsg/{id}','AjaxController@index');
+Route::get('/getmsg/{id}','AjaxController@index');*/
