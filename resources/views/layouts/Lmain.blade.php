@@ -99,7 +99,7 @@
         </div>
     </body>
     <script type="text/javascript">
-        $(document).ready(function () {
+        /*$(document).ready(function () {
             $.ajax({
                type:'POST',
                url:'/getmsg',
@@ -108,6 +108,6 @@
                   alert("1");
                }
             });
-        });
+        });*/
     </script>
 </html>
